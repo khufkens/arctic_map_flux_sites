@@ -1,1 +1,3 @@
-# arctic_map_flux_sites
+# Arctic flux sites
+
+![](map.png)
