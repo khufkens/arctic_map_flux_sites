@@ -110,11 +110,11 @@ l$pos = NULL
 text(l, cex = 1, adj = c(1.2, -1), col = "white")
 
 # site locations and names
-points(sites.polar,pch=17, cex=1.2, lwd = 2, col = "yellow")
+points(sites.polar, pch = 17, cex=1.2, lwd = 2, col = "yellow")
 text(sites.polar@coords,
-     labels=df$sitename,
+     labels = df$sitename,
      pos = df$pos,
-     col="white",
-     cex = 1
+     col = "white",
+     cex = 0.8
      )
 dev.off()
